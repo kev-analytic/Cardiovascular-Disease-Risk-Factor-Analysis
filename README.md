@@ -73,14 +73,16 @@ The dataset contains information on several health-related attributes for indivi
 - Normalization of continuous features (optional depending on model).
 
 ### 4. Model Building
-Trained and evaluated the following classifiers:
+evaluated the following classifiers:
 - **Logistic Regression with Cross-Validation**
 - **Decision Tree**
 - **Random Forest**
 - **XGBoost Classifier**
+  
+Trained the top two perfoming models
 
 ### 5. Evaluation Metrics
-Each model was evaluated using:
+Top models were evaluated using:
 - Accuracy
 - Precision, Recall, and F1-Score
 - Confusion Matrix
@@ -89,23 +91,43 @@ Each model was evaluated using:
 
 ---
 
-## ✅ Results Summary
-![Class balance plot](Visuals/class balance.png)
-
-![Accuracy Comparison](Visuals/accuracy comparison.png)
-
-![auc comparison](Visuals/auc comparison.png)
-
-![log xgboost comparison](Visuals/log xgboost comparison.png)
-
-![Confusion Matrix](Visuals/cfm - Copy.png)
-
-![xgboost feature importance](Visuals/xgboost feature importance.png)
+## Results Summary
+![Class balance plot](Visuals/class_balance.png)
 
 
+The dataset contains an approximately **equal number of individuals with and without cardiovascular disease**, indicating that the target variable is **balanced**. This is beneficial for training machine learning models, as it reduces the risk of bias toward one class.
 
-- **Key Predictors**: Age,diastol blood pressure,systolic blood pressure cholesterol, glucose, and physical activity.
-- **Smokers and alcohol consumers** showed little predictive power in this dataset.
+
+![Accuracy Comparison](Visuals/accuracy_comparison.png)
+
+
+Based on the cross-validation results, **Logistic Regression** and **XGBoost** emerged as the top-performing models in terms of **accuracy**
+
+![auc comparison](Visuals/auc_comparison.png)
+
+
+Based on the cross-validation results, **Logistic Regression** and **XGBoost** emerged as the top-performing models in terms of **AUC**
+
+
+![log xgboost comparison](Visuals/log_xgboost_comparison.png)
+
+
+XGBoost demonstrates superior performance compared to logistic regression, achieving higher precision, recall, and F1-scores across both classes. This indicates that XGBoost provides more accurate and reliable predictions for the classification task.
+
+
+![Confusion Matrix](Visuals/cfm-Copy.png)
+
+
+These results show that the model performs reasonably well in detecting both classes. However, the number of false negatives is still notable, meaning some true positive cases are being missed. Overall, the confusion matrix reflects a balanced model, with slightly stronger performance in identifying negative cases.
+
+![xgboost feature importance](Visuals/xgboost_feature_importance.png)
+
+
+For XGBoost, systolic blood pressure and cholesterol emerge as the most influential features in the predictive task. Age also plays a crucial role in prediction. These features are strongly associated with cardiovascular risk and thus provide the model with high predictive power. However, the remaining features—such as BMI, glucose, and lifestyle indicators—also contribute meaningfully to the model’s performance, helping it capture additional variance in the data.
+
+
+
+
 
 ---
 
