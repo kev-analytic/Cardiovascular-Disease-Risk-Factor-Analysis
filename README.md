@@ -91,10 +91,15 @@ Each model was evaluated using:
 
 ## ✅ Results Summary
 !("C:\Users\HomePC\Desktop\cardiovasculr-data-analysis\Cardiovascular-Disease-Risk-Data-Analysis\Visuals\class balance.jpg")
+
 !("C:\Users\HomePC\Desktop\cardiovasculr-data-analysis\Cardiovascular-Disease-Risk-Data-Analysis\Visuals\accuracy comparison.jpg"
+
 !("C:\Users\HomePC\Desktop\cardiovasculr-data-analysis\Cardiovascular-Disease-Risk-Data-Analysis\Visuals\auc comparison.jpg")
+
 !("C:\Users\HomePC\Desktop\cardiovasculr-data-analysis\Cardiovascular-Disease-Risk-Data-Analysis\Visuals\log xgboost comparison.jpg")
+
 !("C:\Users\HomePC\Desktop\cardiovasculr-data-analysis\Cardiovascular-Disease-Risk-Data-Analysis\Visuals\cfm - Copy.jpg")
+
 !("C:\Users\HomePC\Desktop\cardiovasculr-data-analysis\Cardiovascular-Disease-Risk-Data-Analysis\Visuals\xgboost feature importance.jpg")
 
 
