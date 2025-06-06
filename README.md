@@ -90,12 +90,12 @@ Each model was evaluated using:
 ---
 
 ## ✅ Results Summary
-!("C:\Users\HomePC\Desktop\cardiovasculr-data-analysis\Cardiovascular-Disease-Risk-Data-Analysis\Visuals\class balance.png")
-!("C:\Users\HomePC\Desktop\cardiovasculr-data-analysis\Cardiovascular-Disease-Risk-Data-Analysis\Visuals\accuracy comparison.png"
-!("C:\Users\HomePC\Desktop\cardiovasculr-data-analysis\Cardiovascular-Disease-Risk-Data-Analysis\Visuals\auc comparison.png")
-!("C:\Users\HomePC\Desktop\cardiovasculr-data-analysis\Cardiovascular-Disease-Risk-Data-Analysis\Visuals\log xgboost comparison.png")
-!("C:\Users\HomePC\Desktop\cardiovasculr-data-analysis\Cardiovascular-Disease-Risk-Data-Analysis\Visuals\cfm - Copy.png")
-!("C:\Users\HomePC\Desktop\cardiovasculr-data-analysis\Cardiovascular-Disease-Risk-Data-Analysis\Visuals\xgboost feature importance.png")
+!("C:\Users\HomePC\Desktop\cardiovasculr-data-analysis\Cardiovascular-Disease-Risk-Data-Analysis\Visuals\class balance.jpg")
+!("C:\Users\HomePC\Desktop\cardiovasculr-data-analysis\Cardiovascular-Disease-Risk-Data-Analysis\Visuals\accuracy comparison.jpg"
+!("C:\Users\HomePC\Desktop\cardiovasculr-data-analysis\Cardiovascular-Disease-Risk-Data-Analysis\Visuals\auc comparison.jpg")
+!("C:\Users\HomePC\Desktop\cardiovasculr-data-analysis\Cardiovascular-Disease-Risk-Data-Analysis\Visuals\log xgboost comparison.jpg")
+!("C:\Users\HomePC\Desktop\cardiovasculr-data-analysis\Cardiovascular-Disease-Risk-Data-Analysis\Visuals\cfm - Copy.jpg")
+!("C:\Users\HomePC\Desktop\cardiovasculr-data-analysis\Cardiovascular-Disease-Risk-Data-Analysis\Visuals\xgboost feature importance.jpg")
 
 
 
