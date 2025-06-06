@@ -90,17 +90,17 @@ Each model was evaluated using:
 ---
 
 ## ✅ Results Summary
-![Class balance plot](Visuals/class balance.png)
+![Class balance plot](Visuals/class_balance.png)
 
-![Accuracy Comparison](Visuals/accuracy comparison.png)
+![Accuracy Comparison](Visuals/accuracy_comparison.png)
 
-![auc comparison](Visuals/auc comparison.png)
+![auc comparison](Visuals/auc_comparison.png)
 
-![log xgboost comparison](Visuals/log xgboost comparison.png)
+![log xgboost comparison](Visuals/log_xgboost_comparison.png)
 
-![Confusion Matrix](Visuals/cfm - Copy.png)
+![Confusion Matrix](Visuals/cfm-Copy.png)
 
-![xgboost feature importance](Visuals/xgboost feature importance.png)
+![xgboost feature importance](Visuals/xgboost_feature_importance.png)
 
 
 
