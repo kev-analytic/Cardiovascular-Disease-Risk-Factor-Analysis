@@ -109,10 +109,23 @@ Based on the cross-validation results, **Logistic Regression** and **XGBoost** e
 Based on the cross-validation results, **Logistic Regression** and **XGBoost** emerged as the top-performing models in terms of **AUC**
 
 
-![log xgboost comparison](Visuals/log_xgboost_comparison.png)
+| Metric                      | Model               | Train Set - Class 0 | Train Set - Class 1 | Train Accuracy | Test Set - Class 0 | Test Set - Class 1 | Test Accuracy | AUC  |
+|----------------------------|---------------------|----------------------|----------------------|----------------|---------------------|---------------------|----------------|------|
+| **Precision**              | Logistic Regression | 0.71                 | 0.75                 | 0.73           | 0.71                | 0.75                | 0.73           | 0.79 |
+| **Recall**                 | Logistic Regression | 0.78                 | 0.67                 |                | 0.78                | 0.67                |                |      |
+| **F1-score**               | Logistic Regression | 0.74                 | 0.71                 |                | 0.74                | 0.71                |                |      |
+| **Precision**              | XGBoost             | 0.74                 | 0.78                 | 0.76           | 0.71                | 0.75                | 0.73           | 0.79 |
+| **Recall**                 | XGBoost             | 0.81                 | 0.72                 |                | 0.78                | 0.68                |                |      |
+| **F1-score**               | XGBoost             | 0.77                 | 0.75                 |                | 0.75                | 0.72                |                |      |
+
+> **ROC Note**: Both models achieve the same AUC score (0.79), indicating similar overall discriminative power. However, XGBoost’s ROC curve is slightly more curved, suggesting better sensitivity at specific thresholds compared to the more linear curve of logistic regression.
+
+> **Score Comparison**: While both models generalize similarly on the test set (73% accuracy), XGBoost demonstrates stronger performance on the training set, with higher precision, recall, and F1-scores across both classes. This indicates a more expressive fit, though it may also hint at mild overfitting.
 
 
-XGBoost demonstrates superior performance compared to logistic regression, achieving higher precision, recall, and F1-scores across both classes. This indicates that XGBoost provides more accurate and reliable predictions for the classification task.
+
+
+
 
 
 ![Confusion Matrix](Visuals/cfm-Copy.png)
