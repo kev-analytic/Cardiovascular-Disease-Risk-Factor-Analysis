@@ -126,8 +126,6 @@ For XGBoost, systolic blood pressure and cholesterol emerge as the most influent
 
 
 
-- **Key Predictors**: Age,diastol blood pressure,systolic blood pressure cholesterol, glucose, and physical activity.
-- **Smokers and alcohol consumers** showed little predictive power in this dataset.
 
 ---
 
