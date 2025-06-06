@@ -90,13 +90,14 @@ Each model was evaluated using:
 ---
 
 ## ✅ Results Summary
+![Alt text]("C:\Users\HomePC\Desktop\cardiovasculr-data-analysis\Cardiovascular-Disease-Risk-Data-Analysis\Visuals\class balance.png")
+![Alt text]("C:\Users\HomePC\Desktop\cardiovasculr-data-analysis\Cardiovascular-Disease-Risk-Data-Analysis\Visuals\accuracy comparison.png"
+![Alt text]("C:\Users\HomePC\Desktop\cardiovasculr-data-analysis\Cardiovascular-Disease-Risk-Data-Analysis\Visuals\auc comparison.png")
+![Alt text]("C:\Users\HomePC\Desktop\cardiovasculr-data-analysis\Cardiovascular-Disease-Risk-Data-Analysis\Visuals\log xgboost comparison.png")
+![Alt text]("C:\Users\HomePC\Desktop\cardiovasculr-data-analysis\Cardiovascular-Disease-Risk-Data-Analysis\Visuals\cfm - Copy.png")
+![Alt text]("C:\Users\HomePC\Desktop\cardiovasculr-data-analysis\Cardiovascular-Disease-Risk-Data-Analysis\Visuals\xgboost feature importance.png")
 
-| Model                  | Accuracy | Notes |
-|------------------------|----------|-------|
-| Logistic Regression CV | ~71%     | Simple, interpretable,good perfomance |
-| Decision Tree          | ~64%     | Fast, but not reliable |
-| Random Forest          | ~69%     | Good balance of performance |
-| XGBoost                | ~73%     | Highest performance |
+
 
 - **Key Predictors**: Age,diastol blood pressure,systolic blood pressure cholesterol, glucose, and physical activity.
 - **Smokers and alcohol consumers** showed little predictive power in this dataset.
