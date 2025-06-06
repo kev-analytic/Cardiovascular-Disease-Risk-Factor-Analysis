@@ -90,13 +90,19 @@ Each model was evaluated using:
 ---
 
 ## ✅ Results Summary
+![Class balance plot](Visuals/class balance.png)
 
-| Model                  | Accuracy | Notes |
-|------------------------|----------|-------|
-| Logistic Regression CV | ~71%     | Simple, interpretable,good perfomance |
-| Decision Tree          | ~64%     | Fast, but not reliable |
-| Random Forest          | ~69%     | Good balance of performance |
-| XGBoost                | ~73%     | Highest performance |
+![Accuracy Comparison](Visuals/accuracy comparison.png)
+
+![auc comparison](Visuals/auc comparison.png)
+
+![log xgboost comparison](Visuals/log xgboost comparison.png)
+
+![Confusion Matrix](Visuals/cfm - Copy.png)
+
+![xgboost feature importance](Visuals/xgboost feature importance.png)
+
+
 
 - **Key Predictors**: Age,diastol blood pressure,systolic blood pressure cholesterol, glucose, and physical activity.
 - **Smokers and alcohol consumers** showed little predictive power in this dataset.
