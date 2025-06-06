@@ -78,6 +78,7 @@ evaluated the following classifiers:
 - **Decision Tree**
 - **Random Forest**
 - **XGBoost Classifier**
+  
 Trained the top two perfoming models
 
 ### 5. Evaluation Metrics
