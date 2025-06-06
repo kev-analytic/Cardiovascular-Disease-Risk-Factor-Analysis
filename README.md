@@ -73,14 +73,15 @@ The dataset contains information on several health-related attributes for indivi
 - Normalization of continuous features (optional depending on model).
 
 ### 4. Model Building
-Trained and evaluated the following classifiers:
+evaluated the following classifiers:
 - **Logistic Regression with Cross-Validation**
 - **Decision Tree**
 - **Random Forest**
 - **XGBoost Classifier**
+Trained the top two perfoming models
 
 ### 5. Evaluation Metrics
-Each model was evaluated using:
+Top models were evaluated using:
 - Accuracy
 - Precision, Recall, and F1-Score
 - Confusion Matrix
